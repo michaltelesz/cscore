@@ -7,7 +7,7 @@
     ///     Compared to the <see cref="ISampleSource" />, the <see cref="IWaveSource" /> provides raw bytes instead of samples.
     ///     That means that the <see cref="IAudioSource.Position" /> and the <see cref="IAudioSource.Position" /> properties are
     ///     expressed in bytes.
-    ///     Also the <see cref="IReadableAudioSource{T}.Read" /> method provides samples instead of raw bytes.
+    ///     Also the <see cref="IReadableAudioSource{T}.Read" /> method provides raw bytes instead of samples.
     /// </remarks>
     public interface IWaveSource : IReadableAudioSource<byte>
     {
